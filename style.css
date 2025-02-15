@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0e0e0;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+  
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #444;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #ff5722; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-button:hover {
+    background-color: #e64a19; 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); 
+  }
+
+
+.logo {
+    display: block;
+    margin: 20px auto; 
+    height: 80px; 
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 2px solid #ff5722;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+
