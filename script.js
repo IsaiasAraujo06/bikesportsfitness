@@ -1,9 +1,9 @@
 const categorias = {
     esteiras:[
-        {nome: "ESTEIRA EVOLUTUION 4000 PRO C/INCLINAÇÃO", imagem:"assets/esteiras/evo4000proincl.jpg", preco: "R$15389,94", whatsapp: "+5586988946118"},
-        {nome: "ESTEIRA MOVEMENT LX-150 G4", imagem: "assets/esteiras/lx-150.jpg", preco: "R$14990,00", whatsapp: "+5586988946118"},
-        {nome: "ESTEIRA MOVEMENT LX-160 G4", imagem: "assets/esteiras/lx-160.jpg", preco: "R$16497,89", whatsapp: "+5586988946118"},
-        {nome: "ESTEIRA MOVEMENT RT-150 LED", imagem: "assets/esteiras/rt-150.jpg", preco: "R$23339,76", whatsapp: "+5586988946118"},
+        {nome: "ESTEIRA EVOLUTUION 4000 PRO C/INCLINAÇÃO", imagem:"assets/esteiras/evo4000proincl.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTEIRA MOVEMENT LX-150 G4", imagem: "assets/esteiras/lx-150.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTEIRA MOVEMENT LX-160 G4", imagem: "assets/esteiras/lx-160.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTEIRA MOVEMENT RT-150 LED", imagem: "assets/esteiras/rt-150.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
 
     ],
 
@@ -22,40 +22,40 @@ const categorias = {
 
 
     ergometricas:[
-     {nome:"ERGOMÉTRICA HORIZONTAL EVOLUTION RB-802", imagem:"assets/ergometricas/rb-802.jpg", preco:"R$3796,73", whatsapp: "+5586988946118"},
-     {nome: "ERGOMÉTRICA O'NEAL HORIZONTAL TP-940", imagem: "assets/ergometricas/tp-940.jpg", preco: "R$7893,89", whatsapp: "+5586988946118"},
-     {nome: "ERGOMÉTRICA EVOLUTION SPINNING SP-2500", imagem: "assets/ergometricas/sp-2500.jpg", preco: "R$3975,00", whatsapp: "+5586988946118"},
-     {nome: "ERGOMÉTRICA EVOLUTION SPINNING SP-2600", imagem: "assets/ergometricas/sp-2600.jpg", preco: "R$5490,89", whatsapp: "+5586988946118"},
-     {nome: "ERGOMÉTRICA O'NEAL VERTICAL TP-9516", imagem: "assets/ergometricas/tp-9516.jpg", preco: "R$3249,26", whatsapp: "+5586988946118"},
-     {nome: "ERGOMÉTRICA O'NEAL VERTICAL TP-967", imagem: "assets/ergometricas/tp-967.jpg", preco: "R$3979,01", whatsapp: "+5586988946118"},
+     {nome:"ERGOMÉTRICA HORIZONTAL EVOLUTION RB-802", imagem:"assets/ergometricas/rb-802.jpg", preco:"SOB CONSULTA", whatsapp: "+5586988946118"},
+     {nome: "ERGOMÉTRICA O'NEAL HORIZONTAL TP-940", imagem: "assets/ergometricas/tp-940.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+     {nome: "ERGOMÉTRICA EVOLUTION SPINNING SP-2500", imagem: "assets/ergometricas/sp-2500.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+     {nome: "ERGOMÉTRICA EVOLUTION SPINNING SP-2600", imagem: "assets/ergometricas/sp-2600.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+     {nome: "ERGOMÉTRICA O'NEAL VERTICAL TP-9516", imagem: "assets/ergometricas/tp-9516.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+     {nome: "ERGOMÉTRICA O'NEAL VERTICAL TP-967", imagem: "assets/ergometricas/tp-967.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
      
 
     ],
 
     estacao: [
-        {nome: "ESTAÇÃO MOVEMENT W4", imagem: "assets/estacao/w4.jpg", preco: "R$15968,35", whatsapp: "+5586988946118"},
-        {nome: "ESTAÇÃO MOVEMENT W8", imagem: "assets/estacao/w8.jpg", preco: "R$20576,80", whatsapp: "+5586988946118"},
-        {nome: "ESTAÇÃO EVOLUTION FT-9000", imagem: "assets/estacao/ft-9000.png", preco: "R$6958,58", whatsapp: "+5586988946118"},
-        {nome: "ESTAÇÃO EVOLUTION FT-13000", imagem: "assets/estacao/ft-13000.jpg", preco: "R$12349,70", whatsapp: "+5586988946118"},
+        {nome: "ESTAÇÃO MOVEMENT W4", imagem: "assets/estacao/w4.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTAÇÃO MOVEMENT W8", imagem: "assets/estacao/w8.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTAÇÃO EVOLUTION FT-9000", imagem: "assets/estacao/ft-9000.png", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTAÇÃO EVOLUTION FT-13000", imagem: "assets/estacao/ft-13000.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
     ],
 
     maquinas: [
-        {nome: "FLY VOADOR MACSPORT", imagem: "assets/maquinas/flymacsport", preco: "R$11539,83", whatsapp: "+5586988946118"},
-        {nome: "LEGPRESS 45 MACSPORT", imagem: "assets/maquinas/leg45macsport.jpg", preco: "R$13602,66", whatsapp: "+5586988946118"},
+        {nome: "FLY VOADOR MACSPORT", imagem: "assets/maquinas/flymacsport", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "LEGPRESS 45 MACSPORT", imagem: "assets/maquinas/leg45macsport.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
         
     ],
 
     pesolivre: [
-        {nome: "BANCO REGULÁVEL 3X1 PRO MAC SPORT", imagem: "assets/pesolivre/bancomacsport.jpg", preco: "R$2228,80", whatsapp:"+5586988946118"},
-        {nome: "MUSCULAÇÃO BOLT SUPINO AJUSTÁVEL", imagem: "assets/pesolivre/supinobolt.jpg", preco: "R$11478,50", whatsapp: "+5586988946118"},
-        {nome: "BANCO SUPINO 3 EM 1 VITAMEC", imagem: "assets/pesolivre/supinovitamec.jpg", preco: "R$908,42", whatsapp: "+5586988946118"},
-        {nome: "KIT DUMBELL TEXTURIZADO 12KG-20KG UNB", imagem: "assets/pesolivre/dumbellsUNB.jpg", preco: "R$8587,38", whatsapp: "+5586988946118"},
-        {nome: "KIT HALTERES FERRO 1KG-10KG VITAMEC", imagem: "assets/pesolivre/halteresferrovitamec.jpg", preco: "R$2364,92", whatsapp:"+5586988946118"},
-        {nome: "KIT HALTERES BORRACHA 1KG-10KG UNB", imagem: "assets/pesolivre/halteresborrachaunb.jpg", preço: "R$3068,92", whatsapp: "+5586988946118"},
-        {nome: "BARRA HEXAGONAL MACIÇA UNB", imagem: "assets/pesolivre/barrahexagonal.jpg", preco: "R$1034,11", whatsapp: "+5586988946118"},
-        {nome: "BARRA OCA VITA 1.5M CROMADA", imagem: "assets/pesolivre/barraocavita.jpg", preco: "R$186,26", whatsapp: "+5586988946118"},
-        {nome: "BARRA MACIÇA UNB 1.5M CROMADA", imagem: "assets/pesolivre/barramaciçaunb.jpg", preco: "R$401,18", whatsapp: "+5586988946118"},
-        {nome: "BARRA OLÍMPICA 1,80M UNB", imagem: "assets/pesolivre/barraolimpicaunb.jpg", preco: "R$1152,16", whatsapp: "+5586988946118"}
+        {nome: "BANCO REGULÁVEL 3X1 PRO MAC SPORT", imagem: "assets/pesolivre/bancomacsport.jpg", preco: "SOB CONSULTA", whatsapp:"+5586988946118"},
+        {nome: "MUSCULAÇÃO BOLT SUPINO AJUSTÁVEL", imagem: "assets/pesolivre/supinobolt.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "BANCO SUPINO 3 EM 1 VITAMEC", imagem: "assets/pesolivre/supinovitamec.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "KIT DUMBELL TEXTURIZADO 12KG-20KG UNB", imagem: "assets/pesolivre/dumbellsUNB.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "KIT HALTERES FERRO 1KG-10KG VITAMEC", imagem: "assets/pesolivre/halteresferrovitamec.jpg", preco: "SOB CONSULTA", whatsapp:"+5586988946118"},
+        {nome: "KIT HALTERES BORRACHA 1KG-10KG UNB", imagem: "assets/pesolivre/halteresborrachaunb.jpg", preço: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "BARRA HEXAGONAL MACIÇA UNB", imagem: "assets/pesolivre/barrahexagonal.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "BARRA OCA VITA 1.5M CROMADA", imagem: "assets/pesolivre/barraocavita.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "BARRA MACIÇA UNB 1.5M CROMADA", imagem: "assets/pesolivre/barramaciçaunb.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "BARRA OLÍMPICA 1,80M UNB", imagem: "assets/pesolivre/barraolimpicaunb.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"}
     ],
 
     acessorios: [
