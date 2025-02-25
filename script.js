@@ -10,19 +10,19 @@ const categorias = {
     bicicletas: [
         {nome: "AUDAX HAVOK NX T19 PRETO AZUL", imagem: "assets/bikes/pretoazul.jpg", preco: "R$2.421,57", whatsapp: "+5586988946118"},
         {nome: "AUDAX HAVOK NX T19 VERMELHA", imagem: "assets/bikes/vermelha.jpg", preco: "R$3.748,32", whatsapp: "+5586988941168"},
-        {nome: "AUDAX HAVOK NX T19 PRETO/CINZA", imagem: "assets/bikes/pretocinza.jpg", preco: "R$3.023,74", whatsapp: "+5586988941116"},
-        {nome: "AUDAX HAVOK NX T19 PRETO/AMARELO", imagem: "assets/bikes/pretoamarelo.jpg", preco: "R$2.867,88", whatsapp: "+5586988941116"},
-        {nome: "CAPACETE ABSOLUTE", imagem: "assets/bikes/capaceteabsolute.jpg", preco: "A PARTIR DE R$113,91", whatsapp: "+5586988946116"},
-        {nome: "FAROL ABSOLUTE JY-7043 PRETO C/LED", imagem: "assets/bikes/faroljy-7043.jpg", preco: "R$119,31", whatsapp: "+5586988941116"},
-        {nome: "GARRAFA ISOTERM", imagem: "assets/bikes/garrafaisoterm.jpg", preco: "A PARTIR DE R$14,90", whatsapp: "+5586988941116"},
-        {nome: "LUVA ABSOLUTE", imagem: "assets/bikes/luvaabsolute.jpg", preco: "A PARTIR DE R$42,29", whatsapp: "+5586988941116"},
-        {nome:"TRANSBIKE ABSOLUTE 2 BIKES", imagem: "assets/bikes/transbikeabsolute.jpg", preco: "A PARTIR DE R$341,25", whatsapp: "+5586988941116"},
+        {nome: "AUDAX HAVOK NX T19 PRETO/CINZA", imagem: "assets/bikes/pretocinza.jpg", preco: "R$3.023,74", whatsapp: "+5586988946118"},
+        {nome: "AUDAX HAVOK NX T19 PRETO/AMARELO", imagem: "assets/bikes/pretoamarelo.jpg", preco: "R$2.867,88", whatsapp: "+5586988946118"},
+        {nome: "CAPACETE ABSOLUTE", imagem: "assets/bikes/capaceteabsolute.jpg", preco: "A PARTIR DE R$113,91", whatsapp: "+5586988946118"},
+        {nome: "FAROL ABSOLUTE JY-7043 PRETO C/LED", imagem: "assets/bikes/faroljy-7043.jpg", preco: "R$119,31", whatsapp: "+5586988946118"},
+        {nome: "GARRAFA ISOTERM", imagem: "assets/bikes/garrafaisoterm.jpg", preco: "A PARTIR DE R$14,90", whatsapp: "+5586988946118"},
+        {nome: "LUVA ABSOLUTE", imagem: "assets/bikes/luvaabsolute.jpg", preco: "A PARTIR DE R$42,29", whatsapp: "+5586988946118"},
+        {nome:"TRANSBIKE ABSOLUTE 2 BIKES", imagem: "assets/bikes/transbikeabsolute.jpg", preco: "A PARTIR DE R$341,25", whatsapp: "+5586988946118"},
 
     ],
 
 
     ergometricas:[
-     {nome:"ERGOMÉTRICA HORIZONTAL EVOLUTION RB-802", imagem:"assets/ergometricas/rb-802.jpg", preco:"SOB CONSULTA", whatsapp: "+5586988946118"},
+     {nome:"ERGOMÉTRICA HORIZONTAL EVOLUTION RB-802", imagem:"assets/ergometricas/rb-802.jpg", preco:"SOB CONSULTA", whatsapp: "+55869889466118"},
      {nome: "ERGOMÉTRICA O'NEAL HORIZONTAL TP-940", imagem: "assets/ergometricas/tp-940.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
      {nome: "ERGOMÉTRICA EVOLUTION SPINNING SP-2500", imagem: "assets/ergometricas/sp-2500.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
      {nome: "ERGOMÉTRICA EVOLUTION SPINNING SP-2600", imagem: "assets/ergometricas/sp-2600.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
@@ -60,15 +60,15 @@ const categorias = {
 
     acessorios: [
         {nome: "KIT PUXADORES ANATÔMICOS UNB", imagem: "assets/acessorios/kitpuxadoresergonomicos.jpg", preco: "R$1809,74", whatsapp: "+5586988946118"},
-        {nome: "PAR DE MANOPLAS CROSSOVER UNB", imagem: "assets/acessorios/manoplasunb.jpg", preco: "R$77,41", whatsapp: "+5586988941168"},
-        {nome: "TORNOZELEIRA CROSSOVER MOVEMENT", imagem: "assets/acessorios/tornozeleiramovement.jpg", preco: "R$133,78", whatsapp: "+5586988941116"},
-        {nome: "SUPORTE PARA AGACHAMENTO", imagem: "assets/acessorios/suporteagachamento.jpg", preco: "R$279,93", whatsapp: "+5586988941116"},
-        {nome: "PUXADOR TRICEPS 50CM MOVEMENT", imagem: "assets/acessorios/puxador50cmmovement.jpg", preco: "R$299,80", whatsapp: "+5586988946116"},
-        {nome: "PUXADOR ROMANO ANGULADO 38CM", imagem: "assets/acessorios/puxadorromanoangulado.jpg", preco: "R$258,18", whatsapp: "+5586988941116"},
-        {nome: "PUXADOR TRIÂNGULO UNB", imagem: "assets/acessorios/puxadortriangulounb.jpg", preco: "R$150,00", whatsapp: "+5586988941116"},
-        {nome: "STEP ARKTUS 10CM", imagem: "assets/acessorios/steparktus.jpg", preco: "R$410,80", whatsapp: "+5586988941116"},
-        {nome: "COLCHONETE LEIRIMAX", imagem: "assets/acessorios/colchoneteleirimax.jpg", preco: "A PARTIR DE R$95,90", whatsapp:"+5586988941116"},
-        {nome:"PUXADOR CORDA MOVEMENT", imagem: "assets/acessorios/cordamovement.jpg", preco: "R$159,95", whatsapp: "+5586988941116"}
+        {nome: "PAR DE MANOPLAS CROSSOVER UNB", imagem: "assets/acessorios/manoplasunb.jpg", preco: "R$77,41", whatsapp: "+5586988946118"},
+        {nome: "TORNOZELEIRA CROSSOVER MOVEMENT", imagem: "assets/acessorios/tornozeleiramovement.jpg", preco: "R$133,78", whatsapp: "+5586988946118"},
+        {nome: "SUPORTE PARA AGACHAMENTO", imagem: "assets/acessorios/suporteagachamento.jpg", preco: "R$279,93", whatsapp: "+5586988946118"},
+        {nome: "PUXADOR TRICEPS 50CM MOVEMENT", imagem: "assets/acessorios/puxador50cmmovement.jpg", preco: "R$299,80", whatsapp: "+5586988946118"},
+        {nome: "PUXADOR ROMANO ANGULADO 38CM", imagem: "assets/acessorios/puxadorromanoangulado.jpg", preco: "R$258,18", whatsapp: "+5586988946118"},
+        {nome: "PUXADOR TRIÂNGULO UNB", imagem: "assets/acessorios/puxadortriangulounb.jpg", preco: "R$150,00", whatsapp: "+5586988946118"},
+        {nome: "STEP ARKTUS 10CM", imagem: "assets/acessorios/steparktus.jpg", preco: "R$410,80", whatsapp: "+5586988946118"},
+        {nome: "COLCHONETE LEIRIMAX", imagem: "assets/acessorios/colchoneteleirimax.jpg", preco: "A PARTIR DE R$95,90", whatsapp:"+5586988946118"},
+        {nome:"PUXADOR CORDA MOVEMENT", imagem: "assets/acessorios/cordamovement.jpg", preco: "R$159,95", whatsapp: "+5586988946118"}
 
     ],
 
