@@ -81,12 +81,11 @@ function adicionarProdutos(categoria, id) {
     categorias[categoria].forEach(item => {
         const card = document.createElement("div");
         card.classList.add("card");
-
-        card.innerHTML = `
-            <img src="${item.imagem}" alt="${item.nome}">
-            <h2>${item.nome}</h2>
-            <p>${item.preco}</p>
-            <a href="https://wa.me/${item.whatsapp}" class="btn-whatsapp" target="_blank">Comprar no WhatsApp</a>
+card.innerHTML = `
+    <img src="${item.imagem}" alt="${item.nome}">
+    <h2>${item.nome}</h2>
+    <p>${item.preco}</p>
+    <a href="https://wa.me/${item.whatsapp}?text=Olá, gostaria de fazer um orçamento referente a: ${item.nome} - ${item.preco}" class="btn-whatsapp" target="_blank">Comprar no WhatsApp</a>
         `;
 
         secao.appendChild(card);
