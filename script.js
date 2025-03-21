@@ -1,6 +1,6 @@
 const categorias = {
     esteiras:[
-        {nome: "ESTEIRA EVOLUTUION 4000 PRO C/INCLINAÇÃO", imagem:"assets/esteiras/evo4000proincl.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
+        {nome: "ESTEIRA EVOLUTION 4000 PRO C/INCLINAÇÃO", imagem:"assets/esteiras/evo4000proincl.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
         {nome: "ESTEIRA MOVEMENT LX-150 G4", imagem: "assets/esteiras/lx-150.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
         {nome: "ESTEIRA MOVEMENT LX-160 G4", imagem: "assets/esteiras/lx-160.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
         {nome: "ESTEIRA MOVEMENT RT-150 LED", imagem: "assets/esteiras/rt-150.jpg", preco: "SOB CONSULTA", whatsapp: "+5586988946118"},
