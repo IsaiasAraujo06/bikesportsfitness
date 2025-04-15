@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esteiras</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçalhohome">
+        <img src="front/assets/img/logo.jpg" alt="logo" id="logohome">
+        <nav> 
+            <button class="contato" onclick="window.location.href='contato.html'">Contato</button>
+            <button class="empresas" onclick="window.location.href='empresas.html'">Para empresas</button>
+            <button class="login" onclick="window.location.href='login.html'">Login</button>
+            <button class="cadastro" onclick="window.location.href='cadastro.html'">Cadastro</button>
+            <button class="carrinho" onclick="window.location.href='carrinho.html'">Carrinho</button>
+        </nav>
+    </header>
+
+    <section class="catalog">
+        <!-- Filtro lateral -->
+        <aside class="sidebar">
+            <h2>Filtrar</h2>
+            
+            <div class="filter-group">
+                <label for="marca">Marca</label>
+                <select id="marca" name="marca">
+                    <option value="">Todas</option>
+                    <option value="movement">Movement</option>
+                    <option value="kikos">Kikos</option>
+                    <option value="evolution">Evolution</option>
+                </select>
+            </div>
+    
+            <div class="filter-group">
+                <label for="preco">Preço</label>
+                <input type="range" id="preco" name="preco" min="1000" max="30000">
+            </div>
+    
+            <div class="filter-group">
+                <label>Modelo</label>
+                <div><input type="checkbox" id="modelo1"> <label for="modelo1">Profissional</label></div>
+                <div><input type="checkbox" id="modelo2"> <label for="modelo2">Residencial</label></div>
+            </div>
+        </aside>
+    
+        <!-- Produtos -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="front/assets/img/produtos/bike_lxu_g4_lateral.webp" alt="Ergométrica Movement LXU">
+                <h3>Movement LX 160</h3>
+                <p>R$ 12.000</p>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/esteira2.png" alt="Esteira Movement T-700">
+                <h3>Movement T-700</h3>
+                <p>R$ 16.000</p>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/esteira3.png" alt="Esteira Evolution EVO 4300 PRO">
+                <h3>Evolution EVO 4300 PRO</h3>
+                <p>R$ 18.500</p>
+            </div>
+            <!-- Você pode adicionar mais cards aqui -->
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="front/assets/img/icons/instagram.png" class="instagram" alt="Instagram">
+                </a>
+                <a href="https://wa.me/5586988946118" target="_blank">
+                    <img src="front/assets/img/icons/whatsapp.png" class="whatsapp" alt="WhatsApp">
+                </a>
+            </div>
+    
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Para empresas</h3>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20CNPJ.">Solicite um orçamento</a>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20negociar%20um%20contrato.">Contrato de serviços</a>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20gostaria%20de%20acionar%20a%20assist%C3%AAncia.">Assistência técnica</a>
+                </div><!DOCTYPE html>
+                <html lang="pt-br">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Esteiras</title> 
+                    <link rel="stylesheet" href="style.css">
+                </head>
+                <body>
+                    <header class="cabeçalhohome">
+                        <img src="front/assets/img/logo.jpg" alt="logo" id="logohome">
+                        <nav> 
+                            <button class="contato" onclick="window.location.href='contato.html'">Contato</button>
+                            <button class="empresas" onclick="window.location.href='empresas.html'">Para empresas</button>
+                            <button class="login" onclick="window.location.href='login.html'">Login</button>
+                            <button class="cadastro" onclick="window.location.href='cadastro.html'">Cadastro</button>
+                            <button class="carrinho" onclick="window.location.href='carrinho.html'">Carrinho</button>
+                        </nav>
+                    </header>
+                
+                    <section class="catalog">
+                        <!-- Filtro lateral -->
+                        <aside class="sidebar">
+                            <h2>Filtrar</h2>
+                            
+                            <div class="filter-group">
+                                <label for="marca">Marca</label>
+                                <select id="marca" name="marca">
+                                    <option value="">Todas</option>
+                                    <option value="movement">Movement</option>
+                                    <option value="kikos">Kikos</option>
+                                    <option value="evolution">Evolution</option>
+                                </select>
+                            </div>
+                    
+                            <div class="filter-group">
+                                <label for="preco">Preço</label>
+                                <input type="range" id="preco" name="preco" min="1000" max="30000">
+                            </div>
+                    
+                            <div class="filter-group">
+                                <label>Modelo</label>
+                                <div><input type="checkbox" id="modelo1"> <label for="modelo1">Profissional</label></div>
+                                <div><input type="checkbox" id="modelo2"> <label for="modelo2">Residencial</label></div>
+                            </div>
+                        </aside>
+                    
+                        <!-- Produtos -->
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <img src="front/assets/img/produtos/bike_lxu_g4_lateral.webp" alt="Ergométrica Movement LXU">
+                                <h3>Movement LX 160</h3>
+                                <p>R$ 12.000</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="front/assets/img/produtos/esteira2.png" alt="Esteira Movement T-700">
+                                <h3>Movement T-700</h3>
+                                <p>R$ 16.000</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="front/assets/img/produtos/esteira3.png" alt="Esteira Evolution EVO 4300 PRO">
+                                <h3>Evolution EVO 4300 PRO</h3>
+                                <p>R$ 18.500</p>
+                            </div>
+                            <!-- Você pode adicionar mais cards aqui -->
+                        </div>
+                    </section>
+                
+                    <footer>
+                        <section class="footer">
+                            <div class="footer-social">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <img src="front/assets/img/icons/instagram.png" class="instagram" alt="Instagram">
+                                </a>
+                                <a href="https://wa.me/5586988946118" target="_blank">
+                                    <img src="front/assets/img/icons/whatsapp.png" class="whatsapp" alt="WhatsApp">
+                                </a>
+                            </div>
+                    
+                            <div class="footer-columns">
+                                <div class="footer-col">
+                                    <h3>Para empresas</h3>
+                                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20CNPJ.">Solicite um orçamento</a>
+                                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20negociar%20um%20contrato.">Contrato de serviços</a>
+                                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20gostaria%20de%20acionar%20a%20assist%C3%AAncia.">Assistência técnica</a>
+                                </div>
+                                <div class="footer-col">
+                                    <h3>Informações</h3>
+                                    <a href="https://maps.app.goo.gl/7p9pp3wLEwzhboR89?g_st=aw" target="_blank">Localização</a>
+                                    <a href="assets/docs/políticadepagamentos.pdf" target="_blank">Política de pagamentos</a>
+                                    <a href="assets/docs/políticadeentrega.pdf" target="_blank">Política de entrega</a>
+                                    <a href="assets/docs/políticadetrocasedevoluções.pdf" target="_blank">Trocas e devoluções</a>
+                                </div>
+                                <div class="footer-col">
+                                    <h3>Contato</h3>
+                                    <p>e-mail: bikes@terra.com.br</p>
+                                    <p>celular: (86) 98894-6118</p>
+                                    <p>telefone fixo: (86) 3232-5052</p>
+                                </div>
+                            </div>
+                            <p class="copyright">© 2023 Bike Store. Todos os direitos reservados.</p>
+                        </section>
+                    </footer>
+                    
+                <div class="footer-col">
+                    <h3>Informações</h3>
+                    <a href="https://maps.app.goo.gl/7p9pp3wLEwzhboR89?g_st=aw" target="_blank">Localização</a>
+                    <a href="assets/docs/políticadepagamentos.pdf" target="_blank">Política de pagamentos</a>
+                    <a href="assets/docs/políticadeentrega.pdf" target="_blank">Política de entrega</a>
+                    <a href="assets/docs/políticadetrocasedevoluções.pdf" target="_blank">Trocas e devoluções</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <p>e-mail: bikes@terra.com.br</p>
+                    <p>celular: (86) 98894-6118</p>
+                    <p>telefone fixo: (86) 3232-5052</p>
+                </div>
+            </div>
+            <p class="copyright">© 2023 Bike Store. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+    

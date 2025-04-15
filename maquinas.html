@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esteiras</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçalhohome">
+        <img src="front/assets/img/logo.jpg" alt="logo" id="logohome">
+        <nav> 
+            <button class="contato" onclick="window.location.href='contato.html'">Contato</button>
+            <button class="empresas" onclick="window.location.href='empresas.html'">Para empresas</button>
+            <button class="login" onclick="window.location.href='login.html'">Login</button>
+            <button class="cadastro" onclick="window.location.href='cadastro.html'">Cadastro</button>
+            <button class="carrinho" onclick="window.location.href='carrinho.html'">Carrinho</button>
+        </nav>
+    </header>
+
+    <section class="catalog">
+        <!-- Filtro lateral -->
+        <aside class="sidebar">
+            <h2>Filtrar</h2>
+            <div class="filter-group">
+                <label>MARCA</label>
+                <div><input type="checkbox" id="Movement"> <label for="Movement">MOVEMENT</label></div>
+                <div><input type="checkbox" id="Macsports"> <label for="Macsports">MAC SPORTS</label></div>
+                <div><input type="checkbox" id="Evolution"><label for="Evolution">EVOLUTION</label></div>
+            </div>
+            <div class="filter-group">
+                <label>MECÂNICA</label>
+                <div><input type="checkbox" id="Articulados"> <label for="Articulados">ARTICULADOS</label></div>
+                <div><input type="checkbox" id="Cabos"> <label for="Cabos">CABOS</label></div>
+                <div><input type="checkbox" id="Plateloaded"><label for="Plateloaded">PLATE LOADED</label></div>
+            </div>
+            <div class="filter-group">
+                <label>GRUPO</label>
+                <div><input type="checkbox" id="Articulados"> <label for="Articulados">ARTICULADOS</label></div>
+                <div><input type="checkbox" id="Singlestation"> <label for="Singlestation">SINGLE STATION</label></div>
+                <div><input type="checkbox" id="Dualstation"> <label for="Dualstation">DUAL STATION</label></div>
+                <div><input type="checkbox" id="Workstation"> <label for="Workstation">WORK STATION</label></div>
+
+            </div>
+        </aside>
+    
+        <!-- Produtos -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/ABDUTOREMPÉ.jpg" alt="movementabdutorempearticulado">
+                <h4>MOVEMENT ABDUTOR EM PÉ ARTICULADO</h4>
+                <button onclick="window.location.href='abdutorempéarticulado'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/BELTSQUAT.jpg" alt="movementbeltsquatarticulado">
+                <h4>MOVEMENT BELT SQUAT ARTICULADO</h4>
+                <button onclick="window.location.href='movementbeltsquatarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/BOLTPUXADAALTA.jpg" alt="boltpuxadaaltaarticulado">
+                <h4>MOVEMENT BOLT PUXADA ALTA ARTICULADO</h4>
+                <button onclick="window.location.href='movementboltpuxadaaltaarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/BOLTSUPINOINCLINADO.jpg" alt="boltsupinoinclinadoarticulado">
+                <h4>MOVEMENT BOLT SUPINO INCLINADO ARTICULADO</h4>
+                <button onclick="window.location.href='movementboltsupinoinclinadoarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/BOLTSUPINORETO.jpg" alt="boltsupinoretoarticulado">
+                <h4>MOVEMENT BOLT SUPINO RETO ARTICULADO</h4>
+                <button onclick="window.location.href='movementboltsupinoretoarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/NEXTFLEXAOEMPE.jpg" alt="nextflexaoempearticulado">
+                <h4>MOVEMENT NEXT FLEXORA EM PÉ ARTICULADO</h4>
+                <button onclick="window.location.href='movementnextflexoraempearticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/NEXTREMADAALTA.jpg" alt="nextremadaaltaarticulado">
+                <h4>MOVEMENT NEXT REMADA ALTA ARTICULADO</h4>
+                <button onclick="window.location.href='movementnextremadaalta.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/NEXTREMADABAIXA.jpg" alt="nextremadabaixaarticulado">
+                <h4>MOVEMENT NEXT REMADA BAIXA ARTICULADO</h4>
+                <button onclick="window.location.href='movementnextremadabaixa.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/NEXTSQUATLUNGE.jpg" alt="nextsquatlungearticulado">
+                <h4>MOVEMENT NEXT SQUAT LUNGE ARTICULADO</h4>
+                <button onclick="window.location.href='movementnextsquatlunge.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/NEXTSUPINODECLINADO.jpg" alt="nextsupinodeclinadoarticulado">
+                <h4>MOVEMENT NEXT SUPINO DECLINADO ARTICULADO</h4>
+                <button onclick="window.location.href='movementnextsupinodeclinadoarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/NEXTSUPINOINCLINADO.jpg" alt="nextsupinoinclinadoarticulado">
+                <h4>MOVEMENT NEXT SUPINO INCLINADO ARTICULADO</h4>
+                <button onclick="window.location.href='movementnextsupinoinclinadoarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/POWERSQUAT.jpg" alt="movementpowersquat">
+                <h4>MOVEMENT POWERSQUAT ARTICULADO</h4>
+                <button onclick="window.location.href='movementpowersquatarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/ARTICULADOS/REMADACAVALINHO.jpg" alt="movementremadacavalinhoarticulado">
+                <h4>MOVEMENT REMADA CAVALINHO ARTICULADO</h4>
+                <button onclick="window.location.href='movementremadacavalinhoarticulado.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/CABLES/NEXTCROSS45.jpg" alt="movementnextcross45">
+                <h4>MOVEMENT NEXT CROSSOVER 45</h4>
+                <button onclick="window.location.href='movementnextcrossover45.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/CABLES/NEXTCROSSOVER.jpg" alt="movementnextcrossover">
+                <h4>MOVEMENT NEXT CROSSOVER</h4>
+                <button onclick="window.location.href='movementnextcrossover.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/CABLES/NEXTGRAVITON.jpg" alt="movementnextgraviton">
+                <h4>MOVEMENT NEXT GRAVITON</h4>
+                <button onclick="window.location.href='movementnextgraviton.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/CABLES/NEXTMULTISTATION.jpg" alt="movementnextmultistation">
+                <h4>MOVEMENT NEXT MULTISTATION</h4>
+                <button onclick="window.location.href='movementnextmultistation.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/CABLES/TOTEMBIONIC.jpg" alt="movementtotembionic">
+                <h4>MOVEMENT TOTEM BIONIC</h4>
+                <button onclick="window.location.href='movementtotembionic.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/IDEAADUTORABDUTOR.jpg" alt="movementideaadutoraabdutor">
+                <h4>MOVEMENT IDEA ADUTOR/ABDUTOR</h4>
+                <button onclick="window.location.href='movementideaadutorabdutor.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/IDEAEXTENSORAFLEXORA.jpg" alt="movementideaextensoraflexora">
+                <h4>MOVEMENT IDEA EXTENSORA/FLEXORA</h4>
+                <button onclick="window.location.href='movementideaextensoraflexora.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/IDEAPUXADALTABAIXA.jpg" alt="movementideapuxadaaltabaixa">
+                <h4>MOVEMENT IDEA PUXADA ALTA/BAIXA</h4>
+                <button onclick="window.location.href='movementideapuxadaaltabaixa.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/NEWEDGEABDUTORADUTOR.jpg" alt="movementnewedgeabdutoradutor">
+                <h4>MOVEMENT NEW EDGE ABDUTOR/ADUTOR</h4>
+                <button onclick="window.location.href='movementnewedgeabdutoradutor.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/NEWEDGEEXTENSORAFLEXORA.jpg" alt="movementnewedgeextensoraflexora">
+                <h4>MOVEMENT NEW EDGE EXTENSORA/FLEXORA</h4>
+                <button onclick="window.location.href='movementnewedgeextensoraflexora.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/NEWEDGEPECKFLYREARDELT.jpg" alt="movementnewedgepeckdeckflyreardelt">
+                <h4>MOVEMENT NEW EDGE FLY/REAR DELT</h4>
+                <button onclick="window.location.href='movementnewedgeflyreardelt.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/DUAL STATION/NEWEDGEPUXADAALTABAIXA.jpg" alt="movementnewedgepuxadaaltabaixa">
+                <h4>MOVEMENT NEW EDGE PUXADA ALTA/BAIXA</h4>
+                <button onclick="window.location.href='movementnewedgepuxadaaltabaixa.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/PLATE LOADED/BOLTLEG45.webp" alt="movementboltleg45">
+                <h4>MOVEMENT BOLT LEG45</h4>
+                <button onclick="window.location.href='movementboltleg45.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/PLATE LOADED/ELEVAÇÃOPÉLVICA.jpg" alt="movementelevaçãopelvicamaquina">
+                <h4>MOVEMENT ELEVAÇÃO PÉLVICA</h4>
+                <button onclick="window.location.href='movementelevaçãopelvicamaquina.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/PLATE LOADED/HACKMACHINE.webp" alt="movementhackmachine">
+                <h4>MOVEMENT HACK MACHINE</h4>
+                <button onclick="window.location.href='movementhackmachine.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/PLATE LOADED/LEG45.jpg" alt="movementleg45">
+                <h4>MOVEMENT LEG45</h4>
+                <button onclick="window.location.href='movementleg45.htmll'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/PLATE LOADED/PANTURRILHASENTADOFWBPT.jpg" alt="movementpanturrilhasentado">
+                <h4>MOVEMENT PANTURRILHA SENTADO</h4>
+                <button onclick="window.location.href='movementpanturrilhasentado.html'">Ver mais</button>
+            </div>
+            <!-- LINHA IDEA -->
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEA3APOIOS.jpg" alt="movementIDEA3APOIOS">
+                <h4>IDEA 3 APOIOS</h4>
+                <button onclick="window.location.href='movementidea3apoios.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAABDOMINAL.jpg" alt="movementIDEAABDOMINAL">
+                <h4>IDEA ABDOMINAL</h4>
+                <button onclick="window.location.href='movementideaabdominal.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAABDUTOR.jpg" alt="movementIDEAABDUTOR">
+                <h4>IDEA ABDUTOR</h4>
+                <button onclick="window.location.href='movementideaabdutor.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAADUTOR.jpg" alt="movementIDEAADUTOR">
+                <h4>IDEA ADUTOR</h4>
+                <button onclick="window.location.href='movementideaadutor.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEACADEIRAFLEXORA.jpg" alt="movementIDEACADEIRAFLEXORA">
+                <h4>IDEA CADEIRA FLEXORA</h4>
+                <button onclick="window.location.href='movementideacadeiraflexora.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEADESENVOLVIMENTO.jpg" alt="movementIDEADESENVOLVIMENTO">
+                <h4>IDEA DESENVOLVIMENTO</h4>
+                <button onclick="window.location.href='movementideadesenvolvimento.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAEXTENSORA.jpg" alt="movementIDEAEXTENSORA">
+                <h4>IDEA EXTENSORA</h4>
+                <button onclick="window.location.href='movementideaextensora.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEALEG180.jpg" alt="movementIDEALEG180">
+                <h4>IDEA LEG 180</h4>
+                <button onclick="window.location.href='movementidealeg180.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAMESAFLEXORA.jpg" alt="movementIDEAMESAFLEXORA">
+                <h4>IDEA MESA FLEXORA</h4>
+                <button onclick="window.location.href='movementideamesaflexora.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAPARALELA.jpg" alt="movementIDEAPARALLELA">
+                <h4>IDEA PARALELA</h4>
+                <button onclick="window.location.href='movementideaparalela.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAPECKDECK.jpg" alt="movementIDEAPECKDECK">
+                <h4>IDEA PECK DECK</h4>
+                <button onclick="window.location.href='movementideapeckdeck.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAREMADABAIXA.jpg" alt="movementIDEAREMADABAIXA">
+                <h4>IDEA REMADA BAIXA</h4>
+                <button onclick="window.location.href='movementidearemadabaixa.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEAROSCASCOTT.jpg" alt="movementIDEAROSCASCOTT">
+                <h4>IDEA ROSCA SCOTT</h4>
+                <button onclick="window.location.href='movementidearoscascott.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/IDEASUPINOHORIZONTAL.jpg" alt="movementIDEASUPINOHORIZONTAL">
+                <h4>IDEA SUPINO HORIZONTAL</h4>
+                <button onclick="window.location.href='movementideasupinohorizontal.html'">Ver mais</button>
+            </div>
+            
+            <!-- LINHA NEW EDGE -->
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGE3APOIOS.jpg" alt="movementNEWEDGE3APOIOS">
+                <h4>MOVEMENT NEW EDGE 3 APOIOS</h4>
+                <button onclick="window.location.href='movementnewedge3apoios.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEABDOMINAL.jpg" alt="movementNEWEDGEABDOMINAL">
+                <h4>MOVEMENT NEW EDGE ABDOMINAL</h4>
+                <button onclick="window.location.href='movementnewedgeabdominal.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEABDUTOR.jpg" alt="movementNEWEDGEABDUTOR">
+                <h4>MOVEMENT NEW EDGE ABDUTOR</h4>
+                <button onclick="window.location.href='movementnewedgeabdutor.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEADUTOR.jpg" alt="movementNEWEDGEADUTOR">
+                <h4>MOVEMENT NEW EDGE ADUTOR</h4>
+                <button onclick="window.location.href='movementnewedgeadutor.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGECADEIRAFLEXORA.jpg" alt="movementNEWEDGECADEIRAFLEXORA">
+                <h4>MOVEMENT NEW EDGE CADEIRA FLEXORA</h4>
+                <button onclick="window.location.href='movementnewedgecadeiraflexora.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEEXTENSORA.jpg" alt="movementNEWEDGEEXTENSORA">
+                <h4>MOVEMENT NEW EDGE EXTENSORA</h4>
+                <button onclick="window.location.href='movementnewedgeextensora.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGELEG180.jpg" alt="movementNEWEDGELEG180">
+                <h4>MOVEMENT NEW EDGE LEG 180</h4>
+                <button onclick="window.location.href='movementnewedgeleg180.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEMESAFLEXORA.jpg" alt="movementNEWEDGEMESAFLEXORA">
+                <h4>MOVEMENT NEW EDGE MESA FLEXORA</h4>
+                <button onclick="window.location.href='movementnewedgemesaflexora.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEPARALELA.jpg" alt="movementNEWEDGEPARALLELA">
+                <h4>MOVEMENT NEW EDGE PARALELA</h4>
+                <button onclick="window.location.href='newedgeparalela.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEREMADA.jpg" alt="movementNEWEDGEREMADA">
+                <h4>MOVEMENT NEW EDGE REMADA</h4>
+                <button onclick="window.location.href='movementnewedgeremada.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEROSCASCOTT.webp" alt="movementNEWEDGEROSCASCOTT">
+                <h4>MOVEMENT NEW EDGE ROSCA SCOTT</h4>
+                <button onclick="window.location.href='movementnewedgeroscascott.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGESUPINOHORIZONTAL.jpg" alt="NEWEDGESUPINOHORIZONTAL">
+                <h4>MOVEMENT NEW EDGE SUPINO HORIZONTAL</h4>
+                <button onclick="window.location.href='movementnewedgesupinohorizontal.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEPUXADAALTA.jpg" alt="movementNEWEDGEPUXADALTA">
+                <h4>MOVEMENT NEW EDGE PUXADA ALTA</h4>
+                <button onclick="window.location.href='movementnewedgepuxadalta.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEPUXADABAIXA.jpg" alt="movementNEWEDGEPUXADABAIXA">
+                <h4>MOVEMENT NEW EDGE PUXADA BAIXA</h4>
+                <button onclick="window.location.href='movementnewedgepuxadabaixa.html'">Ver mais</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="front/assets/img/produtos/maquinas/SINGLESTATION/NEWEDGEPUXADAGUIDA.jpg" alt="movementNEWEDGEPUXADAGUIDA">
+                <h4>MOVEMENT NEW EDGE PUXADA GUIADA</h4>
+                <button onclick="window.location.href='movementnewedgepuxadaguida.html'">Ver mais</button>
+            </div>
+  
+            
+
+
+            <!-- Você pode adicionar mais cards aqui -->
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="front/assets/img/icons/instagram.png" class="instagram" alt="Instagram">
+                </a>
+                <a href="https://wa.me/5586988946118" target="_blank">
+                    <img src="front/assets/img/icons/whatsapp.png" class="whatsapp" alt="WhatsApp">
+                </a>
+            </div>
+    
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Para empresas</h3>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20CNPJ.">Solicite um orçamento</a>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20negociar%20um%20contrato.">Contrato de serviços</a>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20gostaria%20de%20acionar%20a%20assist%C3%AAncia.">Assistência técnica</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Informações</h3>
+                    <a href="https://maps.app.goo.gl/7p9pp3wLEwzhboR89?g_st=aw" target="_blank">Localização</a>
+                    <a href="assets/docs/políticadepagamentos.pdf" target="_blank">Política de pagamentos</a>
+                    <a href="assets/docs/políticadeentrega.pdf" target="_blank">Política de entrega</a>
+                    <a href="assets/docs/políticadetrocasedevoluções.pdf" target="_blank">Trocas e devoluções</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <p>e-mail: bikes@terra.com.br</p>
+                    <p>celular: (86) 98894-6118</p>
+                    <p>telefone fixo: (86) 3232-5052</p>
+                </div>
+            </div>
+            <p class="copyright">© 2023 Bike Store. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+    

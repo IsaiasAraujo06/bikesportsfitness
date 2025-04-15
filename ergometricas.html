@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esteiras</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçalhohome">
+        <img src="front/assets/img/logo.jpg" alt="logo" id="logohome">
+        <nav> 
+            <button class="contato" onclick="window.location.href='contato.html'">Contato</button>
+            <button class="empresas" onclick="window.location.href='empresas.html'">Para empresas</button>
+            <button class="login" onclick="window.location.href='login.html'">Login</button>
+            <button class="cadastro" onclick="window.location.href='cadastro.html'">Cadastro</button>
+            <button class="carrinho" onclick="window.location.href='carrinho.html'">Carrinho</button>
+        </nav>
+    </header>
+
+    <section class="catalog">
+        <!-- Filtro lateral -->
+        <aside class="sidebar">
+            <h2>Filtrar</h2>
+            
+            <div class="filter-group">
+                <label>TIPO DE USO</label>
+                <div><input type="checkbox" id="Profissional"> <label for="Profissional">PROFISSIONAL</label></div>
+                <div><input type="checkbox" id="Residencial"> <label for="Residencial">RESIDENCIAL</label></div>
+            </div>
+            <div class="filter-group">
+                <label>MARCA</label>
+                <div><input type="checkbox" id="Movement"> <label for="Movement">MOVEMENT</label></div>
+                <div><input type="checkbox" id="O'neal"> <label for="O'neal">O'NEAL</label></div>
+                <div><input type="checkbox" id="Evolution"><label for="Evolution">EVOLUTION</label> </div>
+            </div>
+            <div class="filter-group">
+                <label>TIPO</label>
+                <div><input type="checkbox" id="Horizontal"> <label for="Horizontal">HORIZONTAL</label></div>
+                <div><input type="checkbox" id="Vertical"> <label for="Vertical">VERTICAL</label></div>
+                <div><input type="checkbox" id="Spinning"><label for="Spinning">SPINNING</label> </div>
+            </div>
+        </aside>
+    
+        <!-- Produtos -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/movementlxug4.webp" alt="lxug4">
+                <h4>MOVEMENT LX UG4</h4>
+                <button onclick="window.location.href='lxug4.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/evolutionsp2500.jpg" alt="sp2500">
+                <h4>EVOLUTION SP2500</h4>
+                <button onclick="window.location.href='sp2500.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/evolutionsp2600.jpg" alt="sp2600">
+                <h4>EVOLUTION SP2600</h4>
+                <button onclick="window.location.href='sp2600.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/onealtp9516.jpg" alt="Tp9516">
+                <h4>O'NEAL TP9516</h4>
+                <button onclick="window.location.href='tp9516.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/onealtp967.jpg" alt="Tp967">
+                <h4>O'NEAL TP-967</h4>
+                <button onclick="window.location.href='tp967.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/evolutionrb802.jpg" alt="rb802">
+                <h4>EVOLUTION RB-802</h4>
+                <button onclick="window.location.href='rb802.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/onealtp8804.jpg" alt="tp8804">
+                <h4>O'NEAL TP-8804</h4>
+                <button onclick="window.location.href='tp8804.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/onealtp9517.jpeg" alt="tp9517">
+                <h4>O'NEAL TP-9517</h4>
+                <button onclick="window.location.href='tp9517.html'">Ver mais</button>
+            </div>
+            <div class="product-card">
+                <img src="front/assets/img/produtos/ergometricas/onealtp0512.png" alt="tp0512">
+                <h4>O'NEAL TP-0512</h4>
+                <button onclick="window.location.href='tp0512.html'">Ver mais</button>
+            </div>
+            <!-- Você pode adicionar mais cards aqui -->
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="front/assets/img/icons/instagram.png" class="instagram" alt="Instagram">
+                </a>
+                <a href="https://wa.me/5586988946118" target="_blank">
+                    <img src="front/assets/img/icons/whatsapp.png" class="whatsapp" alt="WhatsApp">
+                </a>
+            </div>
+    
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Para empresas</h3>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20CNPJ.">Solicite um orçamento</a>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20negociar%20um%20contrato.">Contrato de serviços</a>
+                    <a href="https://wa.me/5586988946118?text=Ol%C3%A1,%20gostaria%20de%20acionar%20a%20assist%C3%AAncia.">Assistência técnica</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Informações</h3>
+                    <a href="https://maps.app.goo.gl/7p9pp3wLEwzhboR89?g_st=aw" target="_blank">Localização</a>
+                    <a href="assets/docs/políticadepagamentos.pdf" target="_blank">Política de pagamentos</a>
+                    <a href="assets/docs/políticadeentrega.pdf" target="_blank">Política de entrega</a>
+                    <a href="assets/docs/políticadetrocasedevoluções.pdf" target="_blank">Trocas e devoluções</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <p>e-mail: bikes@terra.com.br</p>
+                    <p>celular: (86) 98894-6118</p>
+                    <p>telefone fixo: (86) 3232-5052</p>
+                </div>
+            </div>
+            <p class="copyright">© 2023 Bike Store. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+    
